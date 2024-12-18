@@ -16,7 +16,6 @@
 │── denoising_autoencoder.h5      # 训练好的模型权重文件
 │── denoising_autoencoder.ipynb   # Jupyter Notebook 实验代码
 │── cae_structure_horizontal.svg  # 网络结构图（矢量格式）
-│── cae_structure_horizontal.png  # 网络结构图（PNG 格式）
 │── Figure_1.png                  # 实验结果图表1
 │── Figure_3.png                  # 实验结果图表3
 │
@@ -33,25 +32,21 @@
 │── calculate_all.py              # 自动化计算脚本
 │
 │── 卷积自动编码器在手写数字去噪中的应用研究.pdf    # 研究报告（PDF 版）
-│── 卷积自动编码器在手写数字去噪中的应用研究.docx   # 研究报告（Word 版）
-│── 论文模板.doc                # 模板文件
-
-
----
 
 ## 环境配置与依赖
-
+```
 ### 运行环境要求
 - **Python 版本**：Python 3.8 及以上  
 - **深度学习框架**：TensorFlow 2.x（当前代码基于 TensorFlow）  
 - **依赖库**：  
-    - numpy  
-    - matplotlib  
-    - tensorflow  
-    - scikit-image  
-    - tqdm  
+  - `numpy`  
+  - `matplotlib`  
+  - `tensorflow`  
+  - `scikit-image`  
+  - `tqdm`  
 
 ### 安装依赖
 使用以下命令一键安装所需依赖：  
 ```bash
 pip install numpy matplotlib tensorflow scikit-image tqdm
+```
