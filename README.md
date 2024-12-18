@@ -35,3 +35,23 @@
 │── 卷积自动编码器在手写数字去噪中的应用研究.pdf    # 研究报告（PDF 版）
 │── 卷积自动编码器在手写数字去噪中的应用研究.docx   # 研究报告（Word 版）
 │── 论文模板.doc                # 模板文件
+
+
+---
+
+## 环境配置与依赖
+
+### 运行环境要求
+- **Python 版本**：Python 3.8 及以上  
+- **深度学习框架**：TensorFlow 2.x（当前代码基于 TensorFlow）  
+- **依赖库**：  
+    - numpy  
+    - matplotlib  
+    - tensorflow  
+    - scikit-image  
+    - tqdm  
+
+### 安装依赖
+使用以下命令一键安装所需依赖：  
+```bash
+pip install numpy matplotlib tensorflow scikit-image tqdm
