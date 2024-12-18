@@ -60,14 +60,14 @@ pip install numpy matplotlib tensorflow scikit-image tqdm
 python generate_noisy_images.py
 ```
 
-##2. 训练与评估自动编码器模型
+## 2. 训练与评估自动编码器模型
 运行 denoising_autoencoder.py，训练自动编码器模型，并进行噪声去除任务：
 
 ```bash
 python denoising_autoencoder.py
 ```
 
-##3. 结果可视化
+## 3. 结果可视化
 使用 denoising_autoencoder.ipynb Notebook 文件，可以直观查看去噪效果和不同噪声水平下的重建性能。
 或者使用app_web_interface.py。
 
